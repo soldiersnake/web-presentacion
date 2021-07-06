@@ -1,0 +1,132 @@
+#menuArriba {
+   background-color: rgb(103, 45, 197);
+}
+#logo-two {
+   max-width: 150px;
+}
+h1 {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+}
+.boton-chico {
+   min-width: 20px;
+}
+.botones-01 {
+   margin-left: -25px;
+}
+.botones {
+   margin-left: 25px;
+}
+
+/* Definición de tamaños de textos */
+
+.texto-grande {
+   font-family: 'Oswald', sans-serif;
+   font-size: 5vw;
+   font-weight: 200;
+   line-height: 1em;
+}
+.texto-mediano {
+   font-family: 'Oswald', sans-serif;
+   font-size: 25px;
+   font-weight: 200;
+   line-height: 1em;
+}
+.texto-chico {
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+   font-weight: 200;
+   line-height: 1.35em;
+}
+.texto-pie {
+   font-family: 'Oswald', sans-serif;
+   font-size: 15px;
+   font-weight: 200;
+}
+
+/* Imagen de fondo y cajas contenedoras */
+
+#cuerpo {
+   background-image: url(img/img_fondo.jpg);
+   background-size: 100%;
+   object-fit: cover;
+   //height: 700px;
+}
+
+/* img {
+   object-fit: cover;
+   border-radius: 10px 10px 0 0;
+   margin-top: 10px;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+} */
+.caja-titulo {
+   color: rgb(65, 170, 255);
+   background: rgb(103, 45, 197);
+   min-height: 2vh;
+   margin-top: 50px;
+   border-radius: 10px 10px 0 0;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+}
+.caja {
+   background: rgba(255, 255, 255, 0.9);
+   min-height: 320px;
+   margin-top: 50px;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   border-radius: 0 0 10px 10px;
+}
+.caja-pie00 {
+   color: white;
+   background: white;
+   height: 75px;
+   margin-top: 0;
+}
+.caja-pie {
+   color: rgb(65, 170, 255);
+   background: rgb(103, 45, 197);
+   min-height: 25px;
+   margin-top: 0;
+}
+hr.linea {
+   margin-top: 0;
+	border-top: 1px solid rgb(185, 185, 185);
+}
+.utn-logo {
+   width: 65px;
+}
+/* Estilos exclusivos de página de Contacto y Login */
+
+#form-fondo {
+   background-image: /*linear-gradient(
+      rgba(116, 34, 34, 0.5), 
+      rgba(255, 255, 255, 0.5)
+    ),*/
+    url(img/img_fondo.jpg);  
+   background-size: 100%;
+   object-fit: cover;
+   //height: 700px;
+}
+.caja-titulo-contacto-login {
+   color: #672dc5;
+   background: rgb(65, 170, 255);
+   min-height: 1vh;
+   margin-top: 50px;
+   border-radius: 10px 10px 0 0;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+}
+.caja-contacto-login {
+   background: #F8F5F2;
+   max-height: 500px;
+   -webkit-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   -moz-box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   box-shadow: 10px 10px 0px 3px rgba(224,224,224,0.5);
+   border-radius: 0 0 10px 10px;
+}
